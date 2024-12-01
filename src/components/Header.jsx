@@ -49,7 +49,7 @@ const Header = () => {
         >
           <img className="rounded-full" src={day ? night : dayy} alt="" />
         </button>
-        <button
+        {/* <button
           onClick={handlelogin}
           className=" relativeflex w-32 items-center"
         >
@@ -59,7 +59,7 @@ const Header = () => {
               {log ? "Logged in" : "Logged out"}
             </p>
           </span>
-        </button>
+        </button> */}
       </div>
     </div>
   );

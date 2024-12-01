@@ -79,7 +79,7 @@ const Home = () => {
           </span>
         </p>
       </div>
-      <div className="w-[100%] border-2 p-5 rounded-xl border-blue-500 min-h-32 flex flex-col gap-3 dark:border-white">
+      {/* <div className="w-[100%] border-2 p-5 rounded-xl border-blue-500 min-h-32 flex flex-col gap-3 dark:border-white">
         <p className="font-semibold text-3xl">Feedback</p>
         <textarea
           ref={reffer}
@@ -100,7 +100,7 @@ const Home = () => {
           </button>
           <FeedbackBox />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
